@@ -1,0 +1,56 @@
+@import url("text.css");
+@import url("card.css");
+@import url("img.css");
+@import url("btn.css");
+@import url("list.css");
+
+
+/* Charte graphique */
+/* 1) Arrière-plan du body */
+/* 2) Police, couleur, dimension du corps de texte */
+/* 3) Police, couleur, dimension des headers */
+/* 4) Style des liens */
+
+body {
+  background-color: #EEEEEE;
+  color: rgb(20, 20, 20);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 200px;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #999999;
+}
+h1 {
+  color: #DD5555;
+  font-size: 22px;
+}
+h2 {
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: #CCCCCC;
+}
+a:hover {
+  color: #DD5555;
+}
+
+
+#navigation {
+  position: fixed;
+  background-color: black;
+  color: white;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+}
+
+
+
+
+

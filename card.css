@@ -1,0 +1,11 @@
+/* PRO-TIPS */
+/* couleur d'ombre et de bordure == couleur d'arrière-plan 1% plus foncé */
+/* border-radius < 3px */
+
+.card-white {
+  margin: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px #E6E6E6;
+}
